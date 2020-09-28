@@ -4,4 +4,4 @@ logo: "/assets/images/gwc_logo.png"
 aux_links:
   "Visit us on Facebook":
     - "//facebook.com/gwcberkeley/"
-aux_links_new_tab: false
+aux_links_new_tab: true
