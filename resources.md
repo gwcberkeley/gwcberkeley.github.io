@@ -26,7 +26,7 @@ Principles and Techniques of Data Science (Teaches pandas, sql, regex, modeling,
 
 SQL: [SQL Cheat Sheet](https://websitesetup.org/sql-cheat-sheet/)
 
-Pandas: [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas/src/master/) A set of lessons providing an overview of the Pandas library.
+Pandas: [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas/src/master/) (A set of lessons providing an overview of the Pandas library).
 
 Numpy: [Basic Numpy Reference](http://data8.org/fa20/python-reference.html)
 
