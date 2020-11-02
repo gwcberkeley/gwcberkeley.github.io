@@ -1,8 +1,8 @@
 ---
 title: Probability problems
 parent: Fun Interview Problems
-has_children: false
-nav_order: 1
+has_children: true
+nav_order: 2
 ---
 
 # GWC Meeting Chaos
