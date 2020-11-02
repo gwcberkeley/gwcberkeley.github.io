@@ -1,11 +1,11 @@
 ---
-title: Sep 28 Problem
+title: Probability problems
 parent: Weekly Problems
 has_children: false
 nav_order: 1
 ---
 
-# Sep 28 Problem
+# GWC Meeting Chaos
 
 In a GWC meeting in another parallel universe where we can meet in person, there are 100 attendees and everyone is assigned a seat,
 numbered from 1 to 100. The person who is assigned seat 1 decides to pick a seat randomly from the 100 seats🤯 For the rest of attendees,
