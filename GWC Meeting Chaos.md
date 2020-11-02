@@ -15,7 +15,7 @@ if their seats are taken, they pick a random available seat; if their assigned s
 What is the probability that the last attendee gets its assigned seat?
 
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# # # # # # 
 
 
 
