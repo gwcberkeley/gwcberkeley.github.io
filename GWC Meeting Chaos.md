@@ -19,4 +19,4 @@ What is the probability that the last attendee gets its assigned seat?
 
 
 
-Answer: $`1/2`$
+Answer: `1/2`
