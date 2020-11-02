@@ -2,7 +2,7 @@
 title: GWC Meeting Chaos
 parent: Probability Problems
 has_children: false
-nav_order: 1
+nav_order: 2
 ---
 
 # GWC Meeting Chaos
