@@ -15,7 +15,11 @@ if their seats are taken, they pick a random available seat; if their assigned s
 What is the probability that the last attendee gets its assigned seat?
 
 
-
+#
+#
+#
+#
+#
 
 
 
@@ -38,13 +42,13 @@ If the first person takes the seat of last member, then, obviously, the last mem
 Now let’s look at the case where the first member occupies the place of the k’th member, where 1 < k < n. Members 2...(k − 1) take their
 own seats, since they are vacant. Now member k starts to act exactly like the first person:
 1. He/She takes a seat randomly;
-2. if he/she takes the seat of the first person, which we can think of as being his/her seat now, then
+2. If he/she takes the seat of the first person, which we can think of as being his/her seat now, then
 members k + 1, k + 2, ..., n get to their seats with probability 1;
-3. if he takes the last member’s seat, last member gets his/her seat with probability 0.
+3. If he takes the last member’s seat, last member gets his/her seat with probability 0.
 
 Therefore, if we let f(x) be the probability that the last member takes his/her seat in the room with x seats (according to the conditions stated at the problem), then the probability that the last person takes his seat given that the first person took the seat of k’th member is f(k).
-Since the seat of k’th passenger is taken with probability `1/n` (both old lady and a person whose seat was occupied select new seat with with uniform randomness), we have `f(n) = 1/n + 1/n(Pn−1i=2 f(i))`.
+Since the seat of k’th passenger is taken with probability `1/n` (both old lady and a person whose seat was occupied select new seat with with uniform randomness), we have `f(n) = 1/n + (1/n)(∑n−1,i=2 f(i))`.
 We observe that in case n = 2, the first person takes his/her seat with probability `1/2`, in which case the last member
 
 always gets his/her sit, and that he/she gets the seat of last passenger with probability `1/2` as well; hence f(2) = `1/2`. Our claim is that f(n) = `1/2` for all n, and we prove it using full induction on n. 
-We have shown the base case above. Now let f(n) = `1/2` for n ≤ k. Then `f(k + 1) = 1/k+1 + 1/k+1(Pki=2 f(i)) = 1/k+1 + k−1/2(k+1) = k+1/2(k+1) = 1/2`, as desired. The claim follows by the principle of full mathematical induction.
+We have shown the base case above. Now let f(n) = `1/2` for n ≤ k. Then `f(k + 1) = 1/k+1 + (1/k+1)(∑k,i=2 f(i)) = 1/k+1 + k−1/2k+2 = k+1/2k+2 = 1/2`, as desired. The claim follows by the principle of full mathematical induction.
