@@ -13,3 +13,10 @@ numbered from 1 to 100. The person who is assigned seat 1 decides to pick a seat
 if their seats are taken, they pick a random available seat; if their assigned seats are available, they choose  the assigned seats.
 
 What is the probability that the last attendee gets its assigned seat?
+
+
+
+
+
+
+Answer: $`1/2`$
