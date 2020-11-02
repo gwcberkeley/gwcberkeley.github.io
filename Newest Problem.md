@@ -1,6 +1,6 @@
 ---
 title: Newest Problem
-parent: Weekly Problems
+parent: Fun Interview Problems
 has_children: false
 nav_order: 1
 ---

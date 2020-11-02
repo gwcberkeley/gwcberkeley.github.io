@@ -1,6 +1,6 @@
 ---
-title: Probability problems
-parent: Weekly Problems
+title: GWC Meeting Chaos
+parent: Probability Problems
 has_children: false
 nav_order: 1
 ---
