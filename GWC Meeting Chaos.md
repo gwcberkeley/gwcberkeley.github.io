@@ -1,6 +1,7 @@
 ---
 title: GWC Meeting Chaos
 parent: Probability Problems
+grand_parent: Fun Interview Problems
 has_children: false
 nav_order: 1
 ---
