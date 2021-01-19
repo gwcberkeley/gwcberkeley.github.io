@@ -1,4 +1,4 @@
-## Welcome to Girls Who Code @ Berkeley!
+## Welcome to Girls Who Code at Berkeley!
 
 All future educational content will be hosted on this website and it will be updated weekly.
 
