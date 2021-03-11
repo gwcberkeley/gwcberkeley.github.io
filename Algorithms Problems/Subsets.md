@@ -30,10 +30,9 @@ Constraints:
 
 
 <details>
-<summary>
-    
-## Approach 1: Cascading
-</summary>
+  <summary>
+    Approach 1: Cascading
+  </summary>
   
 A straightforward way to think of this question is that we can start from an empty subset in the output list. At each step, we take a new integer into consideration and generate new subsets from the existing ones.
 
@@ -50,10 +49,9 @@ A straightforward way to think of this question is that we can start from an emp
 
 
 <details>
-<summary>
-   
-## Approach 2: Backtracking
-</summary>
+  <summary>
+    Approach 2: Backtracking
+  </summary>
   
 ```
   Note: Backtracking is an algorithm for finding all solutions by exploring all potential candidates. If the solution candidate turns out to be not a solution (or at least not the last one), the backtracking algorithm discards it by making some changes on the previous step, i.e. backtracks and then tries again.
