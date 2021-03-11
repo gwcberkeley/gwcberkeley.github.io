@@ -55,10 +55,10 @@ public class Solution {
   }
 }
 ```
-  ```
-  Time complexity : O(2^n). Size of recursion tree will be 2^n.
-  Space complexity : O(n) The depth of the recursion tree can go upto n.
-  ```
+```
+Time complexity : O(2^n). Size of recursion tree will be 2^n.
+Space complexity : O(n) The depth of the recursion tree can go upto n.
+```
 
 </details>
 
@@ -78,27 +78,27 @@ public class Solution {
   `dp[i]=dp[i−1]+dp[i−2]`
 
 
-  Code with Java:
-  ```java
-  public class Solution {
-    public int climbStairs(int n) {
-        if (n == 1) {
-            return 1;
-        }
-        int[] dp = new int[n + 1];
-        dp[1] = 1;
-        dp[2] = 2;
-        for (int i = 3; i <= n; i++) {
-            dp[i] = dp[i - 1] + dp[i - 2];
-        }
-        return dp[n];
-    }
+Code with Java:
+```java
+public class Solution {
+  public int climbStairs(int n) {
+      if (n == 1) {
+          return 1;
+      }
+      int[] dp = new int[n + 1];
+      dp[1] = 1;
+      dp[2] = 2;
+      for (int i = 3; i <= n; i++) {
+          dp[i] = dp[i - 1] + dp[i - 2];
+      }
+      return dp[n];
   }
-  ```
-  ```
-  Time complexity : O(n). Single loop upto n.
-  Space complexity : O(n). dp array of size n is used.
-  ```
+}
+```
+```
+Time complexity : O(n). Single loop upto n.
+Space complexity : O(n). dp array of size n is used.
+```
 
 </details>
 
