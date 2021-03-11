@@ -35,9 +35,9 @@ Explanation: There are three ways to climb to the top.
 <summary>Approach 1: Brute Force</summary>
 <p>
   
-  If we use brute force, we take all possible step combinations i.e. 1 and 2, at every step. At every step we are calling the function climbStairs for step 1 and 2, and return the sum of returned values of both functions.
-  `climbStairs(i,n)=(i + 1, n) + climbStairs(i + 2, n)` 
-  where i defines the current step and n defines the destination step.
+If we use brute force, we take all possible step combinations i.e. 1 and 2, at every step. At every step we are calling the function climbStairs for step 1 and 2, and return the sum of returned values of both functions.
+`climbStairs(i,n)=(i + 1, n) + climbStairs(i + 2, n)` 
+where i defines the current step and n defines the destination step.
 
 Code with Java:
 ```java
