@@ -33,7 +33,7 @@ Explanation: There are three ways to climb to the top.
 
 <details open markdown="block">
   <summary>
-    Approach 1: brute force
+    ## Approach 1: brute force
   </summary>
   
   If we use brute force, we take all possible step combinations i.e. 1 and 2, at every step. At every step we are calling the function climbStairs for step 1 and 2, and return the sum of returned values of both functions.
