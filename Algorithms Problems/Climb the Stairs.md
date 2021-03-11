@@ -31,9 +31,8 @@ Explanation: There are three ways to climb to the top.
 
 
 
-<details>
-<summary>Approach 1: Brute Force</summary>
-<p>
+<details open markdown="block">
+  <summary>Approach 1: Brute Force</summary>
   
 If we use brute force, we take all possible step combinations i.e. 1 and 2, at every step. At every step we are calling the function climbStairs for step 1 and 2, and return the sum of returned values of both functions.
 `climbStairs(i,n)=(i + 1, n) + climbStairs(i + 2, n)` 
@@ -61,7 +60,6 @@ public class Solution {
   Space complexity : O(n) The depth of the recursion tree can go upto n.
   ```
 
-</p>
 </details>
 
 
