@@ -31,7 +31,7 @@ Constraints:
 
 
 
-<details>
+<details markdown="block">
   <summary>
     Approach 1: Cascading
   </summary>
@@ -50,7 +50,7 @@ Constraints:
 </details>
 
 
-<details>
+<details markdown="block">
   <summary>
     Approach 2: Backtracking
   </summary>

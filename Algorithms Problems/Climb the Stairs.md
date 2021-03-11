@@ -63,7 +63,7 @@ public class Solution {
 </details>
 
 
-<details>
+<details markdown="block">
   <summary>Approach 2: Dynamic Programming</summary>
   
   We can use dynamic programming here.
@@ -104,7 +104,7 @@ public class Solution {
 
 
 
-<details>
+<details markdown="block">
   <summary>Approach 3: Fibonacci</summary>
   
   As you can see above, the dp array follows a fibonacci sequence. So we can use the definition of fibonacci -- `Fib(n)=Fib(n−1)+Fib(n−2)` or fibonacci formula to calculate the nth fibonacci number. This can help us save the space complexity to O(1). Using matrix multiplication to obtain the nth Fibonacci Number, we can save the time complexity to O(logn).
