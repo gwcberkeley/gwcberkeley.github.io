@@ -16,10 +16,10 @@ What is the probability that the last attendee gets its assigned seat?
 
 
 <details>
-  <summary>
+<summary>
 
-## Click to expand!
-  </summary>
+### Click to expand!
+</summary>
   
   **Answer:** `1/2`
   

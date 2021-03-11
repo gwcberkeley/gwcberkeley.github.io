@@ -30,12 +30,12 @@ Constraints:
 
 
 <details>
-  <summary>
+<summary>
     
 ## Approach 1: Cascading
-  </summary>
+</summary>
   
-  A straightforward way to think of this question is that we can start from an empty subset in the output list. At each step, we take a new integer into consideration and generate new subsets from the existing ones.
+A straightforward way to think of this question is that we can start from an empty subset in the output list. At each step, we take a new integer into consideration and generate new subsets from the existing ones.
 
 `For the list [1, 2, 3], we start from {[]} → {[], [1]} → {[], [1], [2], [1, 2]} → etc.`
 
@@ -50,15 +50,15 @@ Constraints:
 
 
 <details>
-  <summary>
+<summary>
    
 ## Approach 2: Backtracking
-  </summary>
+</summary>
   
 ```
   Note: Backtracking is an algorithm for finding all solutions by exploring all potential candidates. If the solution candidate turns out to be not a solution (or at least not the last one), the backtracking algorithm discards it by making some changes on the previous step, i.e. backtracks and then tries again.
 ```
-  We can loop over the length of combination, rather than the candidate numbers, and generate all combinations for a given length with the help of backtracking technique.
+We can loop over the length of combination, rather than the candidate numbers, and generate all combinations for a given length with the help of backtracking technique.
   We define a backtrack function named `backtrack(first, curr)` which takes the index of the first element to add and a current combination as arguments.
   If the current combination is done, we add the combination to the final output.
   Otherwise, we iterate over the indexes `i` from `first` to the length of the entire sequence `n`.
