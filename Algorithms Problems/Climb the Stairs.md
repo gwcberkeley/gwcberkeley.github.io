@@ -31,9 +31,10 @@ Explanation: There are three ways to climb to the top.
 
 
 
-<details open markdown="block">
+<details>
   <summary>
-    ## Approach 1: brute force
+
+## Approach 1: brute force
   </summary>
   
   If we use brute force, we take all possible step combinations i.e. 1 and 2, at every step. At every step we are calling the function climbStairs for step 1 and 2, and return the sum of returned values of both functions.
@@ -65,9 +66,10 @@ public class Solution {
 </details>
 
 
-<details open markdown="block">
+<details>
   <summary>
-    Approach 2: dynamic programming
+
+## Approach 2: dynamic programming
   </summary>
   
   We can use dynamic programming here.
@@ -108,9 +110,10 @@ public class Solution {
 
 
 
-<details open markdown="block">
+<details>
   <summary>
-    Approach 3: Fibonacci
+
+## Approach 3: Fibonacci
   </summary>
   
   As you can see above, the dp array follows a fibonacci sequence. So we can use the definition of fibonacci -- `Fib(n)=Fib(n−1)+Fib(n−2)` or fibonacci formula to calculate the nth fibonacci number. This can help us save the space complexity to O(1). Using matrix multiplication to obtain the nth Fibonacci Number, we can save the time complexity to O(logn).

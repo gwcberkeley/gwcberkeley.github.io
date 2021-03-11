@@ -15,9 +15,10 @@ if their seats are taken, they pick a random available seat; if their assigned s
 What is the probability that the last attendee gets its assigned seat?
 
 
-<details open markdown="block">
+<details>
   <summary>
-    Click to expand!
+
+## Click to expand!
   </summary>
   
   **Answer:** `1/2`

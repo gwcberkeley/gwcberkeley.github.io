@@ -29,9 +29,10 @@ Constraints:
 
 
 
-<details open markdown="block">
+<details>
   <summary>
-    Approach 1: Cascading
+    
+## Approach 1: Cascading
   </summary>
   
   A straightforward way to think of this question is that we can start from an empty subset in the output list. At each step, we take a new integer into consideration and generate new subsets from the existing ones.
@@ -48,9 +49,10 @@ Constraints:
 </details>
 
 
-<details open markdown="block">
+<details>
   <summary>
-    Approach 2: Backtracking
+   
+## Approach 2: Backtracking
   </summary>
   
 ```
