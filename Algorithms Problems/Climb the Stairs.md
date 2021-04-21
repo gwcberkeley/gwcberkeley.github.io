@@ -38,7 +38,7 @@ If we use brute force, we take all possible step combinations i.e. 1 and 2, at e
 `climbStairs(i,n)=(i + 1, n) + climbStairs(i + 2, n)` 
 where i defines the current step and n defines the destination step.
 
-Code with Java:
+#### Sample Code with Java:
 ```java
 public class Solution {
   public int climbStairs(int n) {
@@ -78,7 +78,7 @@ Space complexity : O(n) The depth of the recursion tree can go upto n.
   `dp[i]=dp[i−1]+dp[i−2]`
 
 
-Code with Java:
+#### Sample Code with Java:
 ```java
 public class Solution {
   public int climbStairs(int n) {

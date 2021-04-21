@@ -69,7 +69,7 @@ As a result, for N numbers, we would have in total 2^N choices (solutions).
   Backtrack by removing `nums[i]` from `curr`.
 
 
-  Code with Python:
+#### Sample Code with Python:
 ```python
 def subsets(self, nums: List[int]) -> List[List[int]]:
       def backtrack(first = 0, curr = []):
