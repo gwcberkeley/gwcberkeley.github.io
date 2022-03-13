@@ -12,9 +12,9 @@ Dijkstra’s is an algorithm that finds the shortest paths from a single source 
 
 G = graph made up of set of vertices V and set of edges E
 
-|V| = number of vertices in the graph
+`|V|` = number of vertices in the graph
 
-|E| = number of edges in the graph
+`|E|` = number of edges in the graph
 
 Edge (u, v) means node u → node v
 
