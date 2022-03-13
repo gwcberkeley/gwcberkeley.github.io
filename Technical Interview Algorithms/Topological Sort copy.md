@@ -12,7 +12,7 @@ Here is a typical topological sort example.
 
 Suppose we have a graph, and we want to visit all the nodes. However, we could not visit node X unless we have already visited all of X’s prerequisites. Every node X could have a different set of prerequisites, and they may overlap. How would you visit every node in the graph by visiting its prerequisites first?
 
-#### Skeleton Code
+### Skeleton Code
 
 ```python
 def sort(args):
@@ -28,15 +28,12 @@ def sort(args):
 			curr = queue.pop()
 			result.append(curr)
 			for every child in children[curr]:
-        remove curr from parents[child]
+        		remove curr from parents[child]
 				if parents[child] is empty:
 					add child to queue
 		return result
 ```
 
-#### Examples
+### Examples
 
 Course Schedule
-
-
-Course Schedule ||

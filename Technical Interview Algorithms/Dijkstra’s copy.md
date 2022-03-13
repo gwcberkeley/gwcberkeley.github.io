@@ -11,13 +11,17 @@ Dijkstra’s is an algorithm that finds the shortest paths from a single source 
 
 
 G = graph made up of set of vertices V and set of edges E
+
 |V| = number of vertices in the graph
+
 |E| = number of edges in the graph
+
 Edge (u, v) means node u → node v
+
 source = source node you are running dijkstra’s from
 
 
-#### Skeleton Code
+### Skeleton Code
 
 ```python
 def dijkstra's(G, source):
@@ -36,18 +40,17 @@ def dijkstra's(G, source):
 				dist[v] = dist[u] + w(u,v)
 				prev[v] = u
 		return dist, prev
-
 ```
 
 
 You can extract the shortest paths from the source to all other nodes using the prev array, and see the distances from the source to all other nodes in the dist array
 
 
-#### Examples
+
+
+### Examples
 
 
 Cheapest Flights within K Stops
-
-
 
 Word Ladder

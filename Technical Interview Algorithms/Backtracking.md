@@ -16,7 +16,7 @@ Suppose we want to search a node. If the node we are currently at is not the one
 The general procedure would be: modify the current node, call a recursive function on the children nodes, and restore the current node.
 
 
-#### Skeleton Code
+### Skeleton Code
 
 ```python
 def backtrack(n):
@@ -32,12 +32,10 @@ def backtrack(n):
 ```
 
 
-#### Examples
+### Examples
 
 [Subsets](https://gwcberkeley.github.io/Algorithms%20Problems/Subsets.html)
 
-
 N-Queens
-
 
 Word Break

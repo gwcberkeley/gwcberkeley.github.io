@@ -13,7 +13,7 @@ This is an algorithm that you should probably memorize its code. The idea is tha
 The actual code is short for reversing linked list, but it is usually a small and crucial portion in a complex linked list problem.
 
 
-#### Skeleton Code
+### Skeleton Code
 
 ```python
 def reverse(lst):
@@ -26,6 +26,6 @@ def reverse(lst):
 ```
 
 
-#### Examples
+### Examples
 
 Palindrome linked list
