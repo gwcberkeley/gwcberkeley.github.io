@@ -93,7 +93,8 @@ def subsets(self, nums: List[int]) -> List[List[int]]:
 ```
 ```
 Time complexity:  O(N * 2 ^ N) to generate all subsets and then copy them into an output list.
-Space complexity: O(N). We are using O(N) space to maintain curr, and are modifying curr in-place with backtracking. Note that for space complexity analysis, we do not count space that is only used for the purpose of returning output, so the output array is ignored.
+Space complexity: O(N). We are using O(N) space to maintain curr, and are modifying curr in-place with backtracking. 
+Note that for space complexity analysis, we do not count space that is only used for the purpose of returning output, so the output array is ignored.
 ```
 </details>
 
