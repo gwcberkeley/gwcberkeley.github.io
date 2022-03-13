@@ -16,22 +16,22 @@ Suppose we have a graph, and we want to visit all the nodes. However, we could n
 
 ```python
 def sort(args):
-		parents = hashmap: (key -> set of parents of key)
-		children = hashmap: (key -> set of children of key)
-		Initialize an empty queue
+	parents = hashmap: (key -> set of parents of key)
+	children = hashmap: (key -> set of children of key)
+	Initialize an empty queue
 
-		Go through data and add to both parents and children map
-		Add all nodes with 0 parents to the queue
+	Go through data and add to both parents and children map
+	Add all nodes with 0 parents to the queue
 
-		result = []
-		while not queue.empty():
-			curr = queue.pop()
-			result.append(curr)
-			for every child in children[curr]:
-        		remove curr from parents[child]
-				if parents[child] is empty:
-					add child to queue
-		return result
+	result = []
+	while not queue.empty():
+		curr = queue.pop()
+		result.append(curr)
+		for every child in children[curr]:
+			remove curr from parents[child]
+			if parents[child] is empty:
+				add child to queue
+	return result
 ```
 
 ### Examples

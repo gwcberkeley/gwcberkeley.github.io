@@ -17,12 +17,12 @@ The actual code is short for reversing linked list, but it is usually a small an
 
 ```python
 def reverse(lst):
-		prev = null
-		while lst:
-			next = lst.next
-			lst.next = prev
-			prev = lst
-			lst = next
+	prev = null
+	while lst:
+		next = lst.next
+		lst.next = prev
+		prev = lst
+		lst = next
 ```
 
 
